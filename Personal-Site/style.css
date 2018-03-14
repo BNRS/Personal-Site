@@ -1,23 +1,81 @@
+@import url('https://fonts.googleapis.com/css?family=Coda+Caption:800|Pacifico');
+
 * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
 
-h3 {
-    color: blueviolet;
+.top-page-layout {
+    background-image: url("./../Images/cherry-blossom.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 960px;
+    width: 100%;
+    margin-bottom: 150px;
 }
 
-.main {
-    background: #9d9d9d;
-    display: inline-block;
+.top-page-content {
+    position: absolute;
+    font-family: Pacifico, sans-serif;
+    top: 0;
+    left: 0;
 }
 
-.clock {
-    background: #EBEBEB;
-    text-align: center;
-    font-size: 15px;
-    padding-top: 14px;
-    font-family: Kanit, sans-serif;
-    border-radius: 5px;
+/*ben rasmussen*/
+.top-page-content h1 {
+    position: relative;
+    left: 50px;
+    top: 40px;
 }
+
+/*Web and Software dev*/
+.top-page-content h3 {
+    position: relative;
+    top: 100px;
+    left: 25px;
+}
+
+/*passion for..UI/UX*/
+h3.top-jr-dev {
+    position: relative;
+    left: 70px;
+    top: 170px;
+}
+
+/*HTML, CSS..JavaScript*/
+.html-css-javascript {
+    position: relative;
+    top: 260px;
+    left: 100px;
+}
+
+.java-mysql-spring {
+    position: relative;
+    top: 350px;
+    left: 50px;
+}
+
+
+.middle-page-layout {
+    margin-top: 150px;
+    background-color: lightpink;
+    height: 600px;
+    width: 100%;
+    margin-bottom: 150px;
+}
+
+
+/*.clock-main {*/
+/*position: absolute;*/
+/*top: 5px;*/
+/*left: 5px;*/
+/*width: 25%;*/
+/*background: lightskyblue;*/
+/*color: black;*/
+/*display: inline-block;*/
+/*border-radius: 5px;*/
+/*height: 20%;*/
+/*}*/
+
+/*background-color: #5E9DC8;*/
