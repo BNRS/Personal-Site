@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Coda+Caption:800|Pacifico');
-
+@import url('https://fonts.googleapis.com/css?family=Pacifico|Quicksand');
 * {
     box-sizing: border-box;
     margin: 0;
@@ -17,7 +16,7 @@
 
 .top-page-content {
     position: absolute;
-    font-family: Pacifico, sans-serif;
+    font-family: 'Pacifico', sans-serif;
     top: 0;
     left: 0;
 }
@@ -25,15 +24,17 @@
 /*ben rasmussen*/
 .top-page-content h1 {
     position: relative;
+    font-size: 100px;
     left: 50px;
     top: 40px;
 }
 
 /*Web and Software dev*/
 .top-page-content h3 {
+    font-family: 'Quicksand', serif;
     position: relative;
-    top: 100px;
-    left: 25px;
+    top: 50px;
+    left: 65px;
 }
 
 /*passion for..UI/UX*/
