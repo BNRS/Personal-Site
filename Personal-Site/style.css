@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Pacifico|Quicksand');
+
 * {
     box-sizing: border-box;
     margin: 0;
@@ -9,21 +10,16 @@
     background-image: url("./../Images/cherry-blossom.jpg");
     background-size: 100%;
     background-repeat: no-repeat;
-    height: 960px;
+    height: 860px;
     width: 100%;
-    margin-bottom: 150px;
-}
-
-.top-page-content {
-    position: absolute;
-    font-family: 'Pacifico', sans-serif;
-    top: 0;
-    left: 0;
+    margin-bottom: 200px;
+    opacity: .5;
 }
 
 /*ben rasmussen*/
 .top-page-content h1 {
-    position: relative;
+    font-family: 'Pacifico', sans-serif;
+    position: absolute;
     font-size: 100px;
     left: 50px;
     top: 40px;
@@ -32,31 +28,17 @@
 /*Web and Software dev*/
 .top-page-content h3 {
     font-family: 'Quicksand', serif;
-    position: relative;
-    top: 50px;
-    left: 65px;
+    position: absolute;
+    top: 170px;
+    left: 60px;
 }
 
 /*passion for..UI/UX*/
-h3.top-jr-dev {
-    position: relative;
-    left: 70px;
-    top: 170px;
+.uxui {
+    margin: 0;
+    text-align: center;
+    font-family: 'Quicksand', serif;
 }
-
-/*HTML, CSS..JavaScript*/
-.html-css-javascript {
-    position: relative;
-    top: 260px;
-    left: 100px;
-}
-
-.java-mysql-spring {
-    position: relative;
-    top: 350px;
-    left: 50px;
-}
-
 
 .middle-page-layout {
     margin-top: 150px;
@@ -64,6 +46,52 @@ h3.top-jr-dev {
     height: 600px;
     width: 100%;
     margin-bottom: 150px;
+}
+
+
+@media screen and (max-width: 700px) {
+    body {
+        margin: 0;
+        height: 100%;
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    .top-page-layout {
+        background-image: url("./../Images/cherry-blossom.jpg");
+        background-size: 100%;
+        background-repeat: no-repeat;
+        height: 860px;
+        width: 100%;
+        margin-bottom: 150px;
+        opacity: .5;
+    }
+
+    .top-page-content {
+        position: absolute;
+        font-family: 'Pacifico', sans-serif;
+        top: 0;
+        left: 0;
+    }
+
+    /*ben rasmussen*/
+    .top-page-content h1 {
+        position: relative;
+        font-size: 30px;
+        text-align: left;
+        left: 50px;
+        top: 40px;
+    }
+
+    /*Web and Software dev*/
+    .top-page-content h3 {
+        font-family: 'Quicksand', serif;
+        position: relative;
+        font-size: 20px;
+        top: 50px;
+        left: 50px;
+    }
+
 }
 
 
