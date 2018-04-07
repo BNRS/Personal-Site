@@ -30,4 +30,3 @@
         setInterval(clock, 100);
 
     }
-

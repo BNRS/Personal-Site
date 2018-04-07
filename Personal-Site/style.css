@@ -7,13 +7,13 @@
 }
 
 .top-page-layout {
-    background-image: url("./../Images/cherry-blossom.jpg");
+    background-image: url("./../Images/benjamin-hung-340395-unsplash.jpg");
     background-size: 100%;
     background-repeat: no-repeat;
     height: 860px;
     width: 100%;
     margin-bottom: 200px;
-    opacity: .5;
+    opacity: .9;
 }
 
 /*ben rasmussen*/
@@ -23,6 +23,91 @@
     font-size: 100px;
     left: 50px;
     top: 40px;
+    color: lightskyblue;
+}
+
+/*icons are inside this box-div*/
+.box-div {
+    position: absolute;
+    top: 80px;
+    right: 80px;
+    width: 260px;
+    height: 260px;
+}
+
+.box {
+    height: 100px;
+    width: 100px;
+    background-color: deepskyblue;
+    border-radius: 3px;
+    text-align: center;
+}
+
+.box:hover {
+    -webkit-transition: all .35s;
+    box-shadow: deepskyblue;
+    border: 3px solid white;
+    background: lightseagreen;
+    color: black;
+    text-emphasis: "Github";
+
+}
+
+.github-anchor {
+    position: absolute;
+    top: 0px;
+}
+
+.github-anchor:hover {
+    height: 150px;
+}
+
+.github-icon {
+    position: relative;
+    top: 35px;
+    font-size: xx-large;
+}
+
+.linkedin-div {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+
+.linkedin-div:hover {
+    width: 150px;
+}
+
+.linkedin-icon {
+
+}
+
+.portfolio-div {
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+}
+
+.portfolio-div:hover {
+    width: 150px;
+}
+
+.portfolio-icon {
+
+}
+
+.about-me-div {
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+}
+
+.about-me-div:hover {
+    height: 150px;
+}
+
+.about-me-icon {
+
 }
 
 /*Web and Software dev*/
@@ -31,22 +116,43 @@
     position: absolute;
     top: 170px;
     left: 60px;
+    color: mediumaquamarine;
+    font-weight: bolder;
 }
+
+.Software {
+    padding: 10px;
+    border-radius: 3px;
+    background-color: antiquewhite;
+    opacity: .9;
+}
+
+.Software:hover {
+    -webkit-transition: all .35s;
+    box-shadow: inset 2px -100px 0 #99f4f8;
+    border: 0px solid lightskyblue;
+    background: magenta;
+    color: deeppink;
+}
+
 
 /*passion for..UI/UX*/
 .uxui {
-    margin: 0;
+    margin: 200px;
     text-align: center;
     font-family: 'Quicksand', serif;
 }
 
 .middle-page-layout {
-    margin-top: 150px;
-    background-color: lightpink;
-    height: 600px;
+    background-image: url("./../Images/DmitriPopov_minatoTokyo.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 860px;
     width: 100%;
-    margin-bottom: 150px;
+    margin-bottom: 200px;
+    opacity: .9;
 }
+
 
 
 @media screen and (max-width: 700px) {
