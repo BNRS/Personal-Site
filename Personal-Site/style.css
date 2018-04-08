@@ -29,8 +29,8 @@
 /*icons are inside this box-div*/
 .box-div {
     position: absolute;
-    top: 80px;
-    right: 80px;
+    top: 45px;
+    right: 45px;
     width: 260px;
     height: 260px;
 }
@@ -38,9 +38,10 @@
 .box {
     height: 100px;
     width: 100px;
-    background-color: deepskyblue;
+    background-color: lightcoral;
     border-radius: 3px;
     text-align: center;
+    opacity: .8;
 }
 
 .box:hover {
@@ -49,8 +50,7 @@
     border: 3px solid white;
     background: lightseagreen;
     color: black;
-    text-emphasis: "Github";
-
+    opacity: .9;
 }
 
 .github-anchor {
@@ -68,18 +68,20 @@
     font-size: xx-large;
 }
 
-.linkedin-div {
+.linkedin-anchor {
     position: absolute;
     top: 0px;
     right: 0px;
 }
 
-.linkedin-div:hover {
+.linkedin-anchor:hover {
     width: 150px;
 }
 
 .linkedin-icon {
-
+    position: relative;
+    top: 35px;
+    font-size: xx-large;
 }
 
 .portfolio-div {
