@@ -68,6 +68,13 @@
     font-size: xx-large;
 }
 
+.gh {
+    position: relative;
+    top: 105px;
+    left: 25px;
+    font-family: 'Pacifico', sans-serif;
+}
+
 .linkedin-anchor {
     position: absolute;
     top: 0px;
@@ -84,32 +91,44 @@
     font-size: xx-large;
 }
 
-.portfolio-div {
+.portfolio-anchor {
     position: absolute;
     bottom: 0px;
     left: 0px;
 }
 
-.portfolio-div:hover {
+.portfolio-anchor:hover {
     width: 150px;
 }
 
 .portfolio-icon {
-
+    position: relative;
+    top: 35px;
+    font-size: xx-large;
 }
 
-.about-me-div {
+.C {
+    position: relative;
+    top: 150px;
+    left: 55px;
+    font-size: large;
+    /*font-weight: bolder;*/
+}
+
+.about-me-anchor {
     position: absolute;
     bottom: 0px;
     right: 0px;
 }
 
-.about-me-div:hover {
+.about-me-anchor:hover {
     height: 150px;
 }
 
 .about-me-icon {
-
+    position: relative;
+    top: 35px;
+    font-size: xx-large;
 }
 
 /*Web and Software dev*/
